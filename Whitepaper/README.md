@@ -198,13 +198,21 @@ Visit the dribdat [Design repository](https://github.com/dribdat/design) for mor
 
 # ⑧ the alternative
 
-In this section, we draw comparison to several popular and lesser-known platforms and applications for hackathon-type events, which have to some extent inspired our work. While project management tools and practically any collaboration platform can be used to run events, specialized products also help to quickly build a team and evaluate progress. Some are popular with civic tech and digital society projects, which gives us a good yardstick to measure dribdat by.
+In this section, we draw comparison to several other open source platforms and applications for hackathon-type events, which have (alongside their proprietary brethren) inspired our work. While project management tools, online forums, digital whiteboards, and conceivably any reasonably flexible collaboration platform can be used to run ideation events, specialized products can help to quickly build a team, evaluate progress, and "get in the groove".
 
-In the arena of hackathon platforms for student events, things are more focused on competition, evaluation and team building. We hope that in the future, we can modularize some of the functional aspects described in the previous sections, and enable more code and design sharing to improve hackathon experiences everywhere.
+Platforms that are accessible to the general public (no matter how technically astute or not), and produce useful documentation, are popular with [civic tech](https://github.com/dribdat/dribdat/issues/240) and digital society initiatives. In the arena of student events, things are more focused on admissions, competition, and jury evaluation. Despite the differences across the spectra of audiences, we hope to see some of the core functional aspects modularized, enabling more code and design sharing to improve hackathon experiences everywhere.
 
+![Screenshot](images/hackdash-jugendhackt.jpg)
 
+[HackDash](https://github.com/impronunciable/hackdash) (pictured above) by Dan Zajdband and team for [Hacks/Hackers](https://www.hackshackers.com/) events, is an open source hackathon platform written in Node.js and uses MongoDB. It has a popular public site [hackdash.org](https://hackdash.org/) where anyone can create a dashboard with a few clicks. At time of writing, over 2'000 of them have been created, collecting at least 7'000 ideas and 900 released projects. We could learn a lot from their dedicated community and interesting [concept statements](https://github.com/impronunciable/hackdash/wiki/Ideas-&-Improves).
 
-Visit [awesome-hackathons](https://github.com/dribdat/awesome-hackathon) and [alternativeto.net](https://alternativeto.net/software/dribdat/) for links to other projects that you may wish to evaluate and compare with dribdat.
+[JunctionApp](https://github.com/hackjunction/JunctionApp) by a Finland-based non-profit, is an "All-in-one hackathon platform for organisers" catering to international business users. It is open source and also written in Node.js with Express, Mongoose and React. It is highly scalable, has a slick user experience, and has been translated to Chinese. The management of event content is highly flexible, but the project data is rather barebones, and there are no user profiles at time of writing.
+
+[Quill](https://github.com/techx/quill) from the TechX program at MIT, is the most active and followed open source hackathon platform on GitHub, focusing on the registration process. Written in Node.js, Express, Mongoose and Angular, it is technically similar to dribdat and the apps mentioned above, but more refined when it comes to the process of onboarding new participants, which have 10 possible statuses as they apply, get selected, and finally officially join the event. Being really focused on this aspect of the hackathon, it tries to get the job done and leave the rest to other tools. We can learn from its compliance to Accessibility measures, excellent user management (a.k.a. "God mode") and statistics.
+
+[Versus Virus](https://github.com/VersusVirus-Hackathons/VersusVirus-App) was a series of events in 2020 in response to the COVID-19 pandemic, for which a small group (including Oleg from the dribdat project, Swiss software engineers from Panter AG and The Port Association at CERN), rapidly designed and implemented a highly scalable client-server web application for the onboarding process of the large hackathons of the same name. Based on Node.js, Next.js and PostgreSQL, it relies heavily on GraphQL interfaces. It is in many ways a next-generation version of dribdat, and its design focuses on the team-building process which is powered by a unique matching algorithm. The project is at time of writing unfortunately inactive and unsupported, but is the subject of continued study and inspiration.
+
+Visit [awesome-hackathons](https://github.com/dribdat/awesome-hackathon) for links to other projects that you may wish to evaluate and compare with dribdat, complementary tools and further resources.
 
 ![](images/energydata_1.png)
 _Opendata.ch / [Energy Data Hackdays 2020](https://hack.opendata.ch/project/463)_
@@ -239,7 +247,6 @@ The easiest way to try dribdat is to sign up for an upcoming event with such an 
 
 # @ contacts
 
-
 Your feedback is very welcome. Just open a discussion thread in one of the community channels:
 
 - Homepage: [dribdat.cc](https://datalets.ch/dribdat)
@@ -251,7 +258,9 @@ Your feedback is very welcome. Just open a discussion thread in one of the commu
 - Releases: [dribdat/releases](https://github.com/dribdat/dribdat/releases)
 - Bug tracker: [dribdat/issues](https://github.com/dribdat/dribdat/issues)
 
-~ _**Thank you for reading!**_ ~
+~ _**All the hacks are belong to us!**_ ~
+
+![](images/dribdat_outline.png)
 
 ---
 <a name="references"></a>
@@ -261,8 +270,6 @@ Your feedback is very welcome. Just open a discussion thread in one of the commu
 **2015 -- 2021**
 
 On the following pages are reference deployments with background details. Visit our [OpenCollective](https://opencollective.com/dribdat/events) and Opendata.ch Forum for more.
-
-![](images/dribdat_outline.png)
 
 ---
 
