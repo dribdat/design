@@ -258,7 +258,7 @@ Your feedback is very welcome. Just open a discussion thread in one of the commu
 - Releases: [dribdat/releases](https://github.com/dribdat/dribdat/releases)
 - Bug tracker: [dribdat/issues](https://github.com/dribdat/dribdat/issues)
 
-~ _**All the hacks are belong to us!**_ ~
+~ _**All our hack are belong to us.**_ ~
 
 ![](images/dribdat_outline.png)
 
