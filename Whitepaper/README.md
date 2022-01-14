@@ -33,7 +33,7 @@ Hackathons may be considered as a type of focus group, where platforms are evalu
 
 When citizens engage to hack on projects, such as monitoring the environment or validating public accounts, digital civil society initiatives emerge. The shared premise is that open source code and openly designed hardware can be used to rapidly prototype the real-world potential and impact of ideas or "challenges". Such events are then more than just a trendy way to find a job: they become venues for energetic collaboration, channelling civic engagement and technical experiments within an open, socialised setting. In contributing to such events, the participants engage to intensively generate data, take opportunities to be active for diverse causes in pragmatic ways. It is important that the platform they use reflects these purposes in its construction and philosophy.
 
-With the experience of organising many meetings with wikis, cloud-editors, and other [awesome hackathon](https://github.com/dribdat/awesome-hackathon) tools, we are using dribdat today to streamline efforts across several civic tech communities. Compared to other hackathon applications, dribdat puts more emphasis on cooperation and impact-making than competition. Users can join and contribute to multiple projects, where every contribution counts: every bit of data, line of code, design sketch, is part of your overall contribution to the community. Further in this paper, you can learn why dribdat is an open platform, a gateway to other collaboration tools, and a learning instrument for digital co-creation.
+With the experience of deploying wikis, cloud-editors, and other awesome tools, we are using dribdat today to streamline efforts of sharing knowledge across civic tech communities. Compared to other hackathon applications - which you can learn about further on - dribdat puts more emphasis on cooperation and impact-making than competition. Users can join and contribute to multiple projects, where every row of data, line of code, or design sketch, is an integral part of your overall contribution to the community. In this paper, you can learn about how we see the dribdat project as an open platform, a gateway to other collaboration tools, and a learning instrument for digital co-creation.
 
 The name of dribdat is inspired by *dribbling* in basketball and other sports, with a hat tip to [Dribbble](https://dribbble.com/), an online community for graphic design, and the [Dat protocol](https://datproject.org/) for peer-to-peer data sharing. In the following sections we dive deeper into what exactly makes dribdat tick.
 
@@ -54,7 +54,7 @@ On the front page you can see the featured upcoming event, as well as any future
 
 Before the event begins it is possible to *Share a challenge*, which can be organised by *Category*. People who are interested in it can approach the initiator in person, via contact channels, or just *Follow* the challenge. Once the event has started, you can form a team by clicking the *Join* button, taking over a challenge and boosting it, or selecting *Start project* to begin afresh when open challenges are permitted. The dribdat dashboard helps to keep track of remaining time for your all your registered teams.
 
-Challenges, and the projects that result from them, feature a large embedded frame at the top which can be connected to any Web-based tool. These are typically used to place a form for collecting data, a prototyping tool for iterating on designs, a data science notebook, or slide presentation. 
+The Challenges, and Projects that result from them, feature a large embedded frame at the top which can be connected to any Web-based tool. These are typically used to place a form for collecting data, a prototyping tool for iterating on designs, a data science notebook, or slide presentation. You can find visuals of all the elements above in the [User handbook](https://github.com/dribdat/dribdat/blob/main/docs/USAGE.md).
 
 Only one tool can be in focus at a time, keeping participants on board as their projects pass through stages. When setting up an event, it is possible to recommend and preset a range of tools, making it easy to guide all your teams through a process of collecting ideas, refining designs, etc. This is something that we have found particularly helpful in a classroom setting. We hope that dribdat can also boost your sessions, by making the most of co-creation with the right toolbox. Join our community to share tips and workflows.
 
@@ -130,16 +130,16 @@ Forum Helveticum / [Plurilingualism Hackathon 2018](https://hack.opendata.ch/eve
 
 # ⑥ being excellent to each other
 
-The dribdat initiative is grounded in the tradition of creative and ethical hacking. We have combined best practices in using wikis, issue tracking, and content management systems, creating the basic framework of the application at a hackathon in 2015. Since then, we have battle-tested it at many events with thousands of people - and the people have spoken to us about what they want from the experience.
+The dribdat initiative is grounded in the tradition of creative and ethical hacking. We have combined best practices in using wikis, issue tracking, and content management systems, creating the basic framework of the application at a hackathon in 2015. Since then, we have battle-tested it at many events with thousands of people - and the people have spoken to us about what they want from the experience. Many of these demands concern the content and form of interaction between participants at the event, not so much the technical support.
 
-In the first years of service, dribdat has supported dozens of events around Switzerland, becoming the official hackathon platform of [Opendata.ch](https://opendata.ch) - Swiss chapter of Open Knowledge and its working groups, the [Open Network Infrastructure Association](https://opennetworkinfrastructure.org/), [DINAcon](https://dinacon.ch) - the largest annual Swiss conference for digital sustainability, [DayOne](https://dayone.swiss) - an association that runs patient-centric hackathons, and other pioneers listed in the Showcase futher on.
+As the ethics of code and algorithms, better public awareness and relationship to data protection are today a critical and urgent need - platforms like dribdat in the open development community are needed to explain and interact with frameworks of legal and moral agreement. For this reason, we are using dribdat to embed ethical codes, open access licensing, and even data sharing agreements into the activities of our community.
 
-One of the most important areas of feedback from our participants has been to understand what information should be made as visible as possible, to benefit our users despite the time pressure: these are a clear and readable Code of Conduct, Terms of Participation, and starter guides. Right out of the box, dribdat comes with support for the [Hack Code of Conduct](https://hackcodeofconduct.org/) and [Creative Commons](http://creativecommons.org/) licenses. 
+One of the most important areas of feedback has been to understand what information should be made as visible as possible, to benefit our users despite the time pressure. There is a clear and readable Code of Conduct, Terms of Participation, and Contributor Guidelines, available out of the box and customizable. By default, we support the [Hack Code of Conduct](https://hackcodeofconduct.org/) and [Creative Commons](http://creativecommons.org/) licenses. 
 
 ![](images/disclaimer.png)\
 The standard footer deployed with a dribdat instance.
 
-Independently developed at the grassroots, behind the scenes of this project are compacted qualities of what we believe entails good collaboration: a supportive atmosphere that proliferates diversity and tolerance, clearly stated goals, community support and progressive guidelines. Inclusive co-creation  with better design and algorithms is an area of active development, currently the focus of research collaborations, upcoming publications, and development proposals.
+Independently developed at the grassroots, behind the scenes of this project are compacted qualities of what we believe entails good collaboration: a supportive atmosphere that proliferates diversity and tolerance, clearly stated goals, community support and progressive guidelines. Inclusive co-creation, designed to support processes that engender team-building diversity, is an area of active development, currently the focus of collaborations, research, and development.
 
 **💡** We have built in a 7-step process inspired by the [School of Data Pipeline](https://schoolofdata.org/methodology/), that we recommend for attractive and efficient data expeditions and hackathons. Around these it is possible to set up a Resource area with recommended tools, datasets, or brainstorming instruments, and all the content can be customized to fit other patterns and methods.
 
@@ -151,9 +151,9 @@ Open Network Infrastructure Association / [MakeZurich](https://makezurich.ch/)
 
 # ⑦ not being all the things
 
-This is a niche product with unique features and clear limitations. While you will find a variety of enhancements being worked on in our Issue Tracker, here are a couple of major areas where we are lagging. Visit [awesome-hackathons](https://github.com/dribdat/awesome-hackathon) for links to similar products that you may wish to consider for your needs, and our [Open Collective](https://opencollective.com/dribdat) to discover a number of ways to support our project.
+Our [Open Collective](https://opencollective.com/dribdat) offers a number of ways to support our project, from code and financial contribution to helping us to prioritize development and govern the overall initiative. Here are some areas where we think improvement should happen in the medium term. You will find these and a variety of enhancements being proposed and worked on in our [Issue Tracker](https://github.com/dribdat/dribdat/issues). That said, let's try to keep in mind that dribdat is a niche product with unique features and limited scope.
 
-Dribdat has built-in user profiles, but minimal user management features. Collecting personally identifiable information is not the goal of the project: facilitating recognition in a privacy-protecting way is. We allow the use of an anonymous username and disposable e-mail address to log in, but strongly suggest using OAuth for authenticating users through an external provider like Slack, as pictured here:
+While dribdat has built-in user profiles, the application currently has minimal user management features. Collecting personally identifiable information is not the goal of the project: facilitating recognition in a privacy-protecting way is. We allow the use of an anonymous username and disposable e-mail address to log in, but strongly suggest using OAuth for authenticating users through an external provider like Slack.
 
 ![](images/slack_login.png)
 
@@ -171,29 +171,48 @@ In running hackathons, we are used to relying on a bunch of complementary tools.
 
 At this time, commercial support is limited. The code base has developed organically using crowdsourced requirements. At time of writing, there is no broadly available Platform as a Service or a service provider running instances on demand. We believe there is a need for this and are taking steps in this direction. We are also involved in wider attempts to build scalable "operating systems" for hackathons. 
 
-While setting up a small dribdat instance is easy and should be enough for a few teams to get started, the organizers of large events typically rely on more advanced support. Vendors who want to fully support dribdat should have experience with Python, OAuth and Web APIs, and be able to provide advice on how best to plug dribdat into your collaboration infrastructure and software architecture.
+While setting up a small dribdat instance is easy and should be enough for a few teams to get started, the organizers of large events typically rely on more advanced support. Vendors who want to fully support dribdat should have experience with Python, OAuth and Web APIs, and be able to provide advice on how best to plug dribdat into your collaboration infrastructure. Notes on the architecture and supporting dribdat can be found in the [documentation](https://github.com/dribdat/dribdat/tree/main/docs).
 
-**💡** Visit the dribdat [Design repository](https://github.com/dribdat/design) to get supplementary documentation and wireframes of our designs. This is also where the Whitepaper you are reading now lives!
+**💡** Visit the dribdat [Design repository](https://github.com/dribdat/design) for more articles and wireframes of our designs. This is also where the Whitepaper you are reading now lives!
 
 ![](images/design_sketch.png)
+
+
+---
+<a name="things"></a>
+
+# ⑧ alternative to
+
+In this section, we draw comparison to several popular and lesser-known platforms and applications for hackathon-type events, which have to some extent inspired our work. 
+
+While project management tools and practically any collaboration platform can be used to run events, there are several outstanding products which help to share documentation and track progress. Some are popular with civic tech and digital society projects, which gives us a good yardstick to measure dribdat by.
+
+In the arena of hackathon platforms for student events, things are more focused on competition, evaluation and team building. We hope that in the future, we can modularize some of the functional aspects described in the previous sections, and enable more code and design sharing to improve hackathon experiences everywhere.
+
+Visit [awesome-hackathons](https://github.com/dribdat/awesome-hackathon) and [alternativeto.net](https://alternativeto.net/software/dribdat/) for links to products that you may wish to evaluate and compare with dribdat.
+
 
 ----
 <a name="closing"></a>
 
-# ⑧ always be closing
+#  always be closing
 
 The development of dribdat has so far involved significant efforts in code development, standardization, enterprise software integration, and even academic research. Alternative versions and new designs are being promoted through fully open platforms, and it is possible to follow and support the work through an [OpenCollective](https://opencollective.com/dribdat/).
 
+Until today, dribdat has been built on the shoulders of the same giants which have helped to make our hackathons teams productive: code repositories like GitHub, backend libraries like Flask and SQLalchemy, the Bootstrap UI framework, and more. We recognize, and strive to give back to these open source projects.
+
 A project rooted in open data standards and emerging technologies for open networks, dribdat can run as a cloud service, as an on-premises self-hosted solution, or even on a dedicated hardware device for ease of deployment. At the same time, we are committed to stay close to our roots: dribdat itself will always be hacky, experimental, and open to tinkerers around the world. A project like this is never "finished", and we are always on the look-out for fresh ideas that turn our world view upside-down.
 
-The easiest way to try dribdat is to sign up for an upcoming event, and to use our platforms as participant. You can visit the home page to get links to example deployments, instructions on how to set up your own server and start your own events. If you need help or advice with any of this, or would like to contribute to the project in some way, please get in touch on our home page [dribdat.cc](https://dribdat.cc), or through any of these links below.
+In the first years of service, dribdat has supported dozens of events around Switzerland, becoming the official hackathon platform of [Opendata.ch](https://opendata.ch) - Swiss chapter of Open Knowledge and its working groups, the [Open Network Infrastructure Association](https://opennetworkinfrastructure.org/), [DINAcon](https://dinacon.ch) - the largest annual Swiss conference for digital sustainability, [DayOne](https://dayone.swiss) - an association that runs patient-centric hackathons, and other pioneers listed in the Showcase futher on. Over 3'000 user accounts and at least 700 projects have been published with dribdat during this time.
 
-Thank you for reading! Your feedback is very welcome: the latest version of this document can be found on GitHub. Discussion threads are open in various community channels.
+The easiest way to try dribdat is to sign up for an upcoming event with such an organization, and to use our platforms as participant. You can visit the home page to get links to example deployments, instructions on how to set up your own server and start your own events. If you need help or advice with any of this, or would like to contribute to the project in some way, please get in touch on our home page [dribdat.cc](https://dribdat.cc), or through any of these links below.
+
+Thank you for reading! Your feedback is very welcome: the latest version of this document can be found on GitHub. Discussion threads are open in various community channels:
 
 - Homepage: [dribdat.cc](https://datalets.ch/dribdat)
 - Funding: [opencollective.com/dribdat](https://opencollective.com/dribdat)
 - Blog: [opencollective.com/dribdat/updates](https://opencollective.com/dribdat/updates/)
-- Twitter: [@dribdat](https://twitter.com/dribdat)
+- Mastodon: Twitter: [@dribdat](https://twitter.com/dribdat)
 - Sources: [github.com/dribdat](https://github.com/dribdat)
 - Bug tracker: [github.com/issues](https://github.com/dribdat/dribdat/issues)
 
@@ -210,7 +229,7 @@ Thank you for reading! Your feedback is very welcome: the latest version of this
 ---
 <a name="references"></a>
 
-# References
+# @ References
 
 **2015 -- 2021**
 
