@@ -1,7 +1,7 @@
 Co(re)creation: designing the next civic hack
 ---
 
-/ dribdat collective // v.2.4 /// 1.2022
+/ dribdat collective // v.2.5 /// 1.2022
 
 
 This paper describes **dribdat**: an open source tool for hackathons and other time-limited sprints and workshops. In a simple user interface, it allows managing challenges, resources, bootstraps, while augmenting diversity and fair conditions. Learn how we use it to track teams and their progress, collect relevant design notes, documentation, data, and code, and enhance the experience of exploring civic tech problems together, hands-on.
@@ -17,7 +17,7 @@ Permalink: [dribdat.cc/Whitepaper](https://dribdat.cc/Whitepaper)
 5. [Assuring interoperability](#interoperability)
 6. [Being excellent to each other](#excellent)
 7. [Not being all the things](#things)
-8. [The alternative](#alternative)
+8. [The open alternative](#alternative)
 9. [Always be closing](#closing)
 10. [References](#references)
 
@@ -81,22 +81,29 @@ Web technologies and open data standards are at the core of dribdat. Typically, 
 
 In practice, the teams using dribdat are free to work as they please: keeping up with every twist and turn in the online collaboration landscape, we try to nurture supportive communities sharing the best brainstorming, prototyping and code sharing tools, helping to ensure we can plug in and generate data from any preferred platforms.
 
+![Screenshot](images/myprofile.png)
+_Role selection in the profile editor_
+
 Ideators who would like to get help with their challenge-writing or research can easily connect this with dribdat. Just embed your favorite cloud wiki or document editor and set open permissions. For example, [CodiMD](https://github.com/hackmdio/codimd) or [HackMD](https://hackmd.io) can be used to embed a collaborative document with commenting functionality, that can easily be turned into a pitch deck.
 
 Designers can use their favorite prototyping tools, either uploading screenshots or sketches into the Pitch area, or - if they are web-accessible - embedding the tool directly into the top area of the project. For example, we have seen successful co-creation happen around an embedded [Excalidraw](https://excalidraw.com/) canvas or [Miro](https://miro.com/app/) board.
 
-No 'copypasta' needed here, coders! Projects created in a compatible repository - such as [GitHub](http://github.com/), [GitLab](http://gitlab.com/),[Bitbucket](http://bitbucket.com/) - or supported wikis, such as [Etherpad](http://etherpad.org/), [DokuWiki](https://www.dokuwiki.org/), [Google Docs](https://www.google.com/docs/about/), ... - can be synchronised so that documentation can take place, and *continue to happen in a distributed way*, using standard formats, such as the *README* files preferred in open source.
+No 'copypasta' needed here, Developers! Code projects created in a compatible repository - such as [GitHub](http://github.com/), [GitLab](http://gitlab.com/), [Bitbucket](http://bitbucket.com/) - or documentation in supported wikis, such as [Etherpad](http://etherpad.org/), [DokuWiki](https://www.dokuwiki.org/), [Google Docs](https://www.google.com/docs/about/) - can be synchronised so that documentation can take place, and *continue to happen in a distributed way*, using standard formats, such as the *README* files preferred in open source.
 
 ![](images/swihack_2.png)
 _Swiss Broadcasting Corporation / [#swihack 2020](https://swihack.ch/)_
 
-This set-up both teaches your participants about key concepts of how publishing and integration on the Internet works today, and promotes a Web of Data approach to the collaboration setting. The less friction there is between one tool and the next, the more effectively and flexibly our teams can iterate their designs. With dribdat we can visualize and put into practice the data streams connecting our platforms. Where there are hitches and barriers along the way, the open community around dribdat is well positioned to investigate and suggest improvements.
+Documentation that cannot readily be synced, such as data science notebooks as pictured above, is typically embedded using the _Project link_. This set-up both teaches your participants about key concepts of how publishing and integration on the Internet works today, and promotes a Web of Data approach to the collaboration setting.
 
-Users may also use short Twitter-like posts with [Markdown](https://en.wikipedia.org/wiki/Markdown) formatting, assisted by a rich text editor, to document their project, and the API allows the use of simpler, more direct ways to capture insight into participant activity. This includes [dridbot](https://github.com/hackathons-ftw/dridbot#dridbot), a chat-mode integration (for example for Slack or RocketChat) that allows updating projects directly within a team channel.
+The less friction there is between one tool and the next, the more effectively and flexibly our teams can iterate their designs. With dribdat we can visualize and put into practice the data streams connecting our platforms. Where there are hitches and barriers along the way, the open community around dribdat is well positioned to investigate and suggest improvements.
 
-The teams posts, or dribs, that are visible in the _Log_ section of their project, are also aggregated with those of all the teams in the  _Dribs_ section of the navigation and on the _Dashboard_. Organizers can set this up alongside a social media wall and announcements - typically used in digital signage at their event.
+![Screenshot of Posts editor](images/tips_nextlevel.png)
 
-> 💡 "Different sites (and people) have different needs. No one syntax would make all happy." -- John Gruber, co-creator of Markdown
+Any team member may write short, social media-like _Posts_ to document their work, while the API allows the use of other ways to capture insight into participant activity. This includes [dridbot](https://github.com/dribdat/dridbot#dridbot), a chat-mode integration compatible with Slack, RocketChat and other messengers, that allows updating projects directly within a team channel. Dribs are also automatically generated out of commit logs from supported code repositories.
+
+![Screenshot of project log](images/projectlog.png)
+
+Your team's posts, or "dribs", that are visible in the _Log_ section of their project, are also aggregated with those of all the other teams in the  _Dribs_ section of the navigation. Event operators can recognize projects in a similar way. There is also a _Dashboard_, which organizers can set up alongside announcements, and an optional social media stream. This is typically used in digital signage.
 
 ![](images/openfarming_1.jpg)
 _Opendata.ch / [Open Farming Hackdays 2021](https://hack.farming.opendata.ch/event/1)_
@@ -108,7 +115,11 @@ _Opendata.ch / [Open Farming Hackdays 2021](https://hack.farming.opendata.ch/eve
 
 Project presentations and demos made easily and efficiently available for evaluation when each team can update their own progress level, generating an automatic metric for profile completeness and activity levels, and giving each project a meaningful progress score.
 
-Participants can subscribe to a challenge or join a project once someone has started it, and immediately gain access to improving the content. Their public profile gets linked to the project, and their activities -- posted messages (also known as "dribs"), progress reports, code commits, etc. -- can all be tracked alongside those of their team-members in the project's log. Only be engaging in this way can their team climb through the normalizing progress stages of the event.
+Participants can subscribe to a challenge or join a project once someone has started it, and immediately gain access to improving the content. This is done using a simple form, and a [Markdown](https://daringfireball.net/projects/markdown/syntax) editor that helps to format your _Pitch_.
+
+![](images/richtext.png)
+
+As they do this, their project gets linked in a public profile, where their personal contributions - dribs, reports, code commits, etc. - can be seen. By engaging regularly in this way, they can help their team climb through the normalizing progress stages of the event.
 
 ![](images/tips_posting.png)
 
@@ -119,6 +130,8 @@ The data exports, APIs, and dashboards of dribdat allow organisers to at a glanc
 This kind of tooling has potential to be used in a variety of formats - from Agile Scrum sprints, to Design Thinking workshops and Rapid Prototyping: everywhere that time is of the essence, and a scrappy, "can-do" attitude reflective of the hacker ethic encourages better results, while enabling more venues for civic hacking and open data sharing.
 
 We support several ways of extracting real-time statistics for insight on the pulse of the hackathon, pointing to improvements and providing motivational data-points as content. Check the admin dashboard for links and documentation.
+
+> 💡 "Different sites (and people) have different needs. No one syntax would make all happy." -- John Gruber, co-creator of [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 ![](images/inspired_by_data.png)
 _Forum Helveticum / [Plurilingualism Hackathon 2018](https://hack.opendata.ch/event/22)_
@@ -162,6 +175,15 @@ As core methodology to help orient the teams, we have built in a customizable 7-
 ![](images/stages.png)
 _Screenshot of the [Stages screen](https://meta.dribdat.cc/event/1/stages)_
 
+> 💡 "Maximize the following qualities in the projects at your event:
+- **Clearly articulated.** Projects should have a clear question or problem they are trying to solve plus a reasonably specific proposed solution.
+- **Attainable.** Most projects will accomplish about 25% of what they think they can accomplish in the limited time they have. Manage each project’s goals so participants are able to feel accomplished at the end of the session, not interrupted.
+- **Easy to onboard newcomers.** Projects should have ready-to-go tasks for newcomers with a variety of skills and at a variety of skill levels. For coding projects, these tasks can’t require an intimate understanding of the code base, and make sure the build environment can be spun up in less than 20 minutes. Make a list of tasks or create github issues ahead of time!
+- **Led by a stakeholder** (or “subject matter expert”) [who] guides a project to real-world relevance. Projects without a stakeholder can “solve” a problem that doesn’t exist. ... Beware when the leader is a stakeholder but can’t foresee how he or she might be implementing along with the rest of the team.
+- **Organized.** For projects with four or more members, especially newcomers, the project leader’s role should be to coordinate, ensuring each team member has something to work on and helping to welcome new team members."
+
+_Joshua Tauberer, [hackathon.guide](https://hackathon.guide)_
+
 ---
 <a name="things"></a>
 
@@ -169,34 +191,47 @@ _Screenshot of the [Stages screen](https://meta.dribdat.cc/event/1/stages)_
 
 Our [Open Collective](https://opencollective.com/dribdat) offers a number of ways to support our project, from code and financial contribution to helping us to prioritize development and govern the overall initiative. Here are some areas where we think improvement should happen in the medium term. You will find these and a variety of enhancements being proposed and worked on in our [Issue Tracker](https://github.com/dribdat/dribdat/issues). That said, let's try to keep in mind that dribdat is a niche product with unique features and limited scope.
 
+### User management
+
 While dribdat has built-in user profiles, the application currently has minimal user management features. Collecting personally identifiable information is not the goal of the project: facilitating recognition in a privacy-protecting way is. We allow the use of an anonymous username and disposable e-mail address to log in, but strongly suggest using OAuth for authenticating users through an external provider like Slack.
 
 ![](images/slack_login.png)
 
 We encourage users to create profiles in a community platform that you integrate with dribdat - such as the open source [Discourse](https://www.discourse.org/) forum software, or at least to connect their social media profiles. You could also recommend "CV builder" platforms (e.g. [Stack Overflow](https://stackoverflow.blog/2016/10/11/bye-bye-bullets-the-stack-overflow-developer-story-is-the-new-technical-resume/)) to conveniently promote everyone's hackathon experiences. The ability to display participant accomplishments in an interesting way remains an area of improvement.
 
-Currently dribdat does not include a form builder, though you are welcome to fork and make changes to the data schema in Python code. We have left the project structure open ended, allowing operators and teams to define how people can engage as contributors or testers. This is certainly part of the challenge of succeeding with promoting a hackathon idea, but also a major area of improvement to assist beginners and encourage active participation through questionnaires and templates. While it is possible to include this in the "Getting Started" guide shown to teams, we are working on designs for enhancing this, as we see many organisers set up separate online forms for registration, collecting feedback, or asking specific questions to the teams.
+### Questionnaires
 
-At some hackathons, like the [hacknight challenge](https://hacknight.dinacon.ch/project/10) pictured here, we follow an easy-moderate-advanced structure ("ski pistes") in their task descriptions. Other events set up a template which forces project teams to think about this issue.
+Currently dribdat does not include a form builder, though you are welcome to fork and make changes to the data schema in Python code. We have left the project structure open ended, allowing operators and teams to define how people can engage as contributors or testers. This is certainly part of the challenge of succeeding with promoting a hackathon idea, but also a major area of improvement to assist beginners and encourage active participation through questionnaires and templates.
+
+While it is possible to include this in the "Getting Started" guide shown to teams, we see many organisers set up separate online forms for registration, collecting feedback, or asking specific questions to the teams. At some hackathons, like the [hacknight challenge](https://hacknight.dinacon.ch/project/10) pictured here, we follow an easy-moderate-advanced structure ("ski pistes") in their task descriptions, reflecting the _Easy to onboard newcomers_ aspect in Joshua Tauberer's points in the previous section. Yet other events have set up a Challenge template, which requires idea submitters to think about it step-by-step.
 
 ![](images/start_tip.png)
 
+### Mobile app
+
 While featuring a robust and mobile-ready user interface, the overall User Experience is currently underwhelming. Our project has not yet the benefit of a dedicated effort in UX engineering, and at the moment caters perhaps more to the needs of grassroots communities who prefer a simple, familiar interface. If it is to be desired that an application is more in the foreground and engaged with by users, check out the [backboard](https://github.com/dribdat/backboard) project which we started in response to requests for a smoother user interface for participants. It is based on a mobile-first client/server [architecture](https://github.com/dribdat/design/blob/master/Technical%20guide%20final.pdf), and as a custom app, allows completely flexible customization and branding.
 
+![](images/backboard.jpg)
+_Screenshot of a [backboard deployment](https://backboard.vercel.app)_
+
+### Integrations
+
 In running hackathons, we are used to relying on a bunch of complementary tools. The organizing teams often use cloud tools, spreadsheets and calendars to make drafts and detailed plans. Clearly, the goal should not be to replace all of this with a new "[15th competing standard](https://xkcd.com/927/)". Integration with Web tools like wikis and docs is already at the core, so it's easy to make dribdat a part of the workflow. For example, we have run events where all the content is maintained in Google Docs and Google Calendar, and just imported automatically into dribdat.
+
+### Support channels
 
 At this time, commercial support is limited. The code base has developed organically using crowdsourced requirements. At time of writing, there is no broadly available Platform as a Service or a service provider running instances on demand. We believe there is a need for this and are taking steps in this direction. We are also involved in wider attempts to build scalable "operating systems" for hackathons.
 
 While setting up a small dribdat instance is easy and should be enough for a few teams to get started, the organizers of large events typically rely on more advanced support. Vendors who want to fully support dribdat should have experience with Python, OAuth and Web APIs, and be able to provide advice on how best to plug dribdat into your collaboration infrastructure. Notes on the architecture and supporting dribdat can be found in the [documentation](https://github.com/dribdat/dribdat/tree/main/docs).
 
-Visit the dribdat [Design repository](https://github.com/dribdat/design) for more articles and wireframes of our designs. This is also where the Whitepaper you are reading now lives!
+If you have questions, just ping us through the project contacts. Visit the dribdat [Design repository](https://github.com/dribdat/design) for more articles and wireframes of our designs. This is also where the Whitepaper you are reading now lives!
 
 ![](images/design_sketch.png)
 
 ---
 <a name="alternative"></a>
 
-# ⑧ the alternative
+# ⑧ the open alternative
 
 In this section, we draw comparison to several other open source platforms and applications for hackathon-type events, which have (alongside their proprietary brethren) inspired our work. While project management tools, online forums, digital whiteboards, and conceivably any reasonably flexible collaboration platform can be used to run ideation events, specialized products can help to quickly build a team, evaluate progress, and "get in the groove".
 
