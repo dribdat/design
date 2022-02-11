@@ -309,9 +309,7 @@ _Development_
 
 # @ references
 
-You can find our inspirations and additional references at [dribdat/awesome-hackathon](https://github.com/dribdat/awesome-hackathon). On the following pages are reference deployments with background details. Visit our [OpenCollective](https://opencollective.com/dribdat/events), [Twitter]() and  for the latest news.
-
-**2015 -- 2021**
+You can find our inspirations and additional references at [dribdat/awesome-hackathon](https://github.com/dribdat/awesome-hackathon). On the following pages are reference deployments with some background information from **2015 - 2021**
 
 ---
 
