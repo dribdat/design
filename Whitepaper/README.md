@@ -1,10 +1,10 @@
-Co(re)creation: designing the next civic hack
+Co/recreation for civic hackers
 ---
 
-/ dribdat collective // v.2.5 /// 1.2022
+/ Aletsdat collective // v.2.7 /// 2.2022
 
 
-This paper describes **dribdat**: an open source tool for hackathons and other time-limited sprints and workshops. In a simple user interface, it allows managing challenges, resources, bootstraps, while augmenting diversity and fair conditions. Learn how we use it to track teams and their progress, collect relevant design notes, documentation, data, and code, and enhance the experience of exploring civic tech problems together, hands-on.
+This paper describes **dribdat**: an open development tracker for hackathons and other time-limited sprints and workshops. In a simple user interface, it allows managing challenges, resources, bootstraps, while augmenting diversity and fair conditions. Learn how we use it to support teams as they progress, collect relevant design notes, documentation, data, and code - to enhance the experience of exploring civic problems together, hands-on.
 
 Permalink: [dribdat.cc/Whitepaper](https://dribdat.cc/Whitepaper)
 
@@ -28,20 +28,20 @@ Permalink: [dribdat.cc/Whitepaper](https://dribdat.cc/Whitepaper)
 
 # ➀ executive summary
 
-Using dribdat, you can start and showcase projects at collaborative events. These are most commonly hackathons: a popular event format for tinkering and innovation in small teams. Developed in the civic tech movement, concerned with open access to data and sharing the knowledge associated with data production and reuse, dribdat was created as a tool for organisers and participants to have a good overview of the goals and results of their meetings.
+Using dribdat, you can start and showcase projects at collaborative events. These are most commonly hackathons: a popular event format for tinkering and innovation in small teams. Developed within the civic tech movement, concerned with open access to data and sharing the knowledge associated with data production and reuse across diverse local communities, dribdat was created as a tool for organisers and participants to have a good overview of the goals and results of their meetings.
 
-We coded dribdat as an online Web application to ensure that our contributions are easily accessible and verifiable, in that the executive summaries, or _Pitches_, of our projects get published using good standards. This helps to make open design workshops more sustainable, when the experiences gained to be more easily discoverable, readable, and reproducible.
+We encoded our principles in the form of an online, web-based application to ensure that our contributions are easily accessible and verifiable. It helps everyone when the executive summaries, or _Pitches_, of our projects get published using good standards. This helps to make open design workshops more sustainable, when the experiences gained to be more easily discoverable, readable, and reproducible.
 
 ![Photo of team working on dribdat](images/2019-02-hes-so.jpg)
 
-Hackathons may be considered as a type of focus group, where platforms are evaluated, skills transferred, and horizontal insights accelerated by an open exchange of knowledge. This is an established venue to network, explore potential career paths while keenly evaluating prospective candidates or partners. Enabling better time management and coordination, such teamwork supported by dribdat should help to build a community of practice - lowering the barriers to entry for contributing creatively to NGOs, research, government, tech platforms and startups.
-
-When citizens engage to hack on projects, such as monitoring the environment or validating public accounts, digital civil society initiatives emerge. The shared premise is that open source code and openly designed hardware can be used to rapidly prototype the real-world potential and impact of ideas or "challenges".
+When citizens engage in open development to hack on projects - such as monitoring the environment or validating public accounts - sometimes longer-term initiatives emerge. The shared premise is that open source code and openly designed hardware can be used in our digital society to rapidly prototype and assess the real-world potential and impacts of ideas or "challenges".
 
 ![Screenshot](images/datahackdaysbe.jpg)
 _Opendata.ch / [Data Hackdays BE 2021](https://hack.opendata.ch/event/45)_
 
-Such events can be more than just a trendy way to find a job: they are venues for energetic collaboration, channelling public engagement and technical experiments within an open, socialised setting. In contributing to such events, the participants engage to intensively generate data, take opportunities to be active for diverse causes in pragmatic ways. It is important that the digital spaces they fill reflect these purposes in their construction and philosophy.
+Hackathons may be considered as a type of focus group, where platforms are evaluated, skills transferred, and horizontal insights accelerated by an open exchange of knowledge. This is an established venue to network, explore potential career paths while keenly evaluating prospective candidates or partners. Enabling better time management and coordination, such teamwork supported by dribdat should help to build a community of practice - lowering the barriers to entry for contributing creatively to NGOs, research, government, tech platforms and startups.
+
+Such events can therefore be more than just a trendy way to find a job: they are venues for energetic collaboration, channelling public engagement and technical experiments within an open, socialised setting. In contributing to such events, the participants engage to intensively generate data, take opportunities to be active for diverse causes in pragmatic ways. It is important that the digital spaces they fill reflect these purposes in their construction and philosophy.
 
 With the experience of deploying wikis, cloud-editors, and other awesome tools, we are using dribdat to streamline efforts of sharing knowledge across civic tech communities. Compared to competitive hackathon platforms - which you can learn about further on - dribdat puts more emphasis on cooperation and impact-making than competition. Users can join and contribute to multiple projects, where every row of data, line of code, or design sketch, is an integral part of your overall contribution to the community.
 
@@ -285,11 +285,18 @@ The easiest way to try dribdat is to sign up for an upcoming event with such an 
 Your feedback is very welcome. Just open a discussion thread in one of the community channels:
 
 - Homepage: [dribdat.cc](https://datalets.ch/dribdat)
-- Funding: [opencollective.com/dribdat](https://opencollective.com/dribdat)
-- Blog: [opencollective.com/dribdat/updates](https://opencollective.com/dribdat/updates/)
+- Operations: [opencollective.com/dribdat](https://opencollective.com/dribdat)
+
+_News_
+
+- Updates: [opencollective.com/dribdat/updates](https://opencollective.com/dribdat/updates/)
 - Mastodon: [@dribdat](https://mastodon.social/web/@dribdat)
 - Twitter: [@dribdat](https://twitter.com/dribdat)
-- Sources: [github.com/dribdat](https://github.com/dribdat) or [gitlab.com/dribdat](https://gitlab.com/dribdat/dribdat)
+- Discourse: [forum.opendata.ch](https://forum.opendata.ch/search?q=dribdat%20order%3Alatest)
+
+_Development_
+
+- Sources: [github.com/dribdat](https://github.com/dribdat/dribdat) or [gitlab.com/dribdat](https://gitlab.com/dribdat/dribdat)
 - Releases: [dribdat/releases](https://github.com/dribdat/dribdat/releases)
 - Bug tracker: [dribdat/issues](https://github.com/dribdat/dribdat/issues)
 
@@ -302,9 +309,9 @@ Your feedback is very welcome. Just open a discussion thread in one of the commu
 
 # @ references
 
-**2015 -- 2021**
+You can find our inspirations and additional references at [dribdat/awesome-hackathon](https://github.com/dribdat/awesome-hackathon). On the following pages are reference deployments with background details. Visit our [OpenCollective](https://opencollective.com/dribdat/events), [Twitter]() and  for the latest news.
 
-On the following pages are reference deployments with background details. Visit our [OpenCollective](https://opencollective.com/dribdat/events) and Opendata.ch Forum for more.
+**2015 -- 2021**
 
 ---
 
