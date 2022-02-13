@@ -1,17 +1,17 @@
-Co/recreation for civic hackers
+Co/re/creation for civic hackers
 ---
 
 / Aletsdat collective // v.2.7 /// 2.2022
 
 
-This paper describes **dribdat**: an open development tracker for hackathons and other time-limited sprints and workshops. In a simple user interface, it allows managing challenges, resources, bootstraps, while augmenting diversity and fair conditions. Learn how we use it to support teams as they progress, collect relevant design notes, documentation, data, and code - to enhance the experience of exploring civic problems together, hands-on.
+This paper describes **dribdat**: an open development platform for data expeditions. A simple user interface allows managing challenges, resources and bootstraps, while augmenting tolerance and fairness among participants. See how we use it to support teams in hackathons, sprints and workshops which collect and produce design notes, data, and code - making the experience of exploring civic problems together hands-on more _awesome!_
 
 Permalink: [dribdat.cc/Whitepaper](https://dribdat.cc/Whitepaper)
 
 ## Contents
 
 1. [Executive summary](#summary)
-2. [Co-creation and collaboration](#collaboration)
+2. [For corecreation](#collaboration)
 3. [An open platform](#results)
 4. [Reducing friction](#friction)
 5. [Assuring interoperability](#interoperability)
@@ -41,9 +41,9 @@ _Opendata.ch / [Data Hackdays BE 2021](https://hack.opendata.ch/event/45)_
 
 Hackathons may be considered as a type of focus group, where platforms are evaluated, skills transferred, and horizontal insights accelerated by an open exchange of knowledge. This is an established venue to network, explore potential career paths while keenly evaluating prospective candidates or partners. Enabling better time management and coordination, such teamwork supported by dribdat should help to build a community of practice - lowering the barriers to entry for contributing creatively to NGOs, research, government, tech platforms and startups.
 
-Such events can therefore be more than just a trendy way to find a job: they are venues for energetic collaboration, channelling public engagement and technical experiments within an open, socialised setting. In contributing to such events, the participants engage to intensively generate data, take opportunities to be active for diverse causes in pragmatic ways. It is important that the digital spaces they fill reflect these purposes in their construction and philosophy.
+Datathons and hackdays go beyond a trendy way to find a job: they are venues for energetic collaboration which channel public engagement and technical experimentation within an open, socialised setting. In contributing to such events, the participants engage to respond to urgent questions, take opportunities to be active for diverse causes in pragmatic ways. It is important that the digital spaces they fill reflect these purposes in their construction and philosophy.
 
-With the experience of deploying wikis, cloud-editors, and other awesome tools, we are using dribdat to streamline efforts of sharing knowledge across civic tech communities. Compared to competitive hackathon platforms - which you can learn about further on - dribdat puts more emphasis on cooperation and impact-making than competition. Users can join and contribute to multiple projects, where every row of data, line of code, or design sketch, is an integral part of your overall contribution to the community.
+With the experience of deploying wikis, cloud-editors, and other awesome tools, we are using dribdat to streamline efforts of sharing knowledge across civic tech communities. Compared to competitive online platforms, dribdat puts more emphasis on cooperation and impact-making than competition. Users can join and contribute to multiple projects, where every row of data, line of code, or design sketch, is an integral part of your overall contribution to the community.
 
 The name of dribdat is inspired by *dribbling* in basketball and other sports, with a hat tip to [Dribbble](https://dribbble.com/), an online community for graphic design, and the [Dat protocol](https://datproject.org/) for peer-to-peer data sharing. In this paper, you can learn about how we see the dribdat project as an open platform, a gateway to other collaboration tools, and a learning instrument for digital co-creation. In the following sections we dive deeper into what exactly makes dribdat tick.
 
@@ -54,9 +54,9 @@ _Graph of contributions to the dribdat code base, via GitHub_
 ---
 <a name="collaboration"></a>
 
- # ➁ co-creation and collaboration
+ # ➁ for corecreation
 
-Designed to help participants and organisers to have a great time and focus on the essentials, dribdat features timekeeping and progress tracking dashboards to make it easier to form teams, sustain the energy in the room or online event,  and keep the focus on driving creative ideas forward.
+Designed to help participants and organisers to have a great time and focus on the essentials, dribdat features timekeeping and progress tracking dashboards to make it easier to form teams and sustain the energy in the room or online event. We aim to keep the focus on driving creative ideas forward while having fun: a kind of collaborative, multidisciplinary, sportive prototyping that we call **corecreation**.
 
 The open source code of dribdat is accessible for free (under the MIT license), with instructions for self-hosting the platform anywhere that Python runs - which is, basically, anywhere. We are making it easier to deploy on popular platforms using package management and containers. With a running application, you can set up your first hackathon. Future events can run on the same site.
 
