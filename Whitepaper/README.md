@@ -1,10 +1,10 @@
-Co/re/creation for civic hackers
+Co{re}creation for civic hackers
 ---
 
-/ Aletsdat collective // v.2.7 /// 2.2022
+/ Aletsdat collective // v.2.8 /// 2.2022
 
 
-This paper describes **dribdat**: an open development platform for data expeditions. A simple user interface allows managing challenges, resources and bootstraps, while augmenting tolerance and fairness among participants. See how we use it to support teams in hackathons, sprints and workshops which collect and produce design notes, data, and code - making the experience of exploring civic problems together hands-on more _awesome!_
+This paper describes **} dribdat {** as an open development platform for technical sprints and data expeditions. A simple user interface allows managing challenges, resources and bootstraps, while augmenting tolerance and fairness among participants. See how we use it to support teams in hackathons and workshops. By fostering and connecting design notes, data, and code, let's make the experience of exploring real world problems hands-on _even more awesome!_
 
 Permalink: [dribdat.cc/Whitepaper](https://dribdat.cc/Whitepaper)
 
@@ -16,7 +16,7 @@ Permalink: [dribdat.cc/Whitepaper](https://dribdat.cc/Whitepaper)
 4. [Reducing friction](#friction)
 5. [Assuring interoperability](#interoperability)
 6. [Being excellent to each other](#excellent)
-7. [Not being all the things](#things)
+7. [What's next in the pipeline](#things)
 8. [The open alternative](#alternative)
 9. [Always be closing](#closing)
 10. [References](#references)
@@ -143,9 +143,9 @@ _Forum Helveticum / [Plurilingualism Hackathon 2018](https://hack.opendata.ch/ev
 
 Not just a metaphor: dribdat aims to be a digital glue between a plethora of tools and processes that are being deployed in the civic tech community, enabling quick and painless deployment - ideal for hackathons, but a need that is common throughout the IT and public sector. Tools like dribdat are important instruments in facilitating concentrated social change-making that is digitally sustainable.
 
-Baked into the core of dribdat is support for Frictionless Data, the "open-source toolkit that brings simplicity and gracefulness to the data experience" ([frictionlessdata.io](https://frictionlessdata.io/)) which we use to accelerate the process of unpacking and exploring open information sources in the crucial early research & experimentation phases of a hackathon.
+Baked into the core of dribdat is support for Frictionless Data, the "open-source toolkit that brings simplicity and gracefulness to the data experience" ([frictionlessdata.io](https://frictionlessdata.io/)) which we use to accelerate the process of unpacking and exploring open information sources in the crucial early research & experimentation phases of a hackathon. When you create a Data Package of your dribdat event, it is a snapshot of all the projects and configurations which can be used for analysis, for backup, or even as a template for the next event with a one-click import. 
 
-We have created and promoted an open schema for publishing event results: `hackathon.json` - a simple, readable text file at the root of any dribdat instance. Along with Data Package export, and compliance for [Schema.org](https://schema.org/Hackathon) and [Open Graph](https://ogp.me/) standards, we strive to ensure that our publications are picked up by search crawlers and easily federated.
+The foundation of this is an open schema that we are advocating for publishing hack-event results: `hackathon.json` - a simple, readable text file at the root of any dribdat instance. Along with Data Package support, our compliance for [Schema.org](https://schema.org/Hackathon) and [Open Graph](https://ogp.me/) standards helps to ensure that publications are picked up by search crawlers and easily federated.
 
 For event organizers, the backend allows quick browsing and export of project data: in document form for evaluation by jury, or in `CSV` or `JSON` formats for external workflow. Spammy or invalid entries can be easily hidden or cleaned up. With `OAuth` support, user profile administration can go through an external, enterprise-scale provider such as GitHub or Slack.
 
@@ -187,17 +187,22 @@ _Joshua Tauberer, [hackathon.guide](https://hackathon.guide)_
 ---
 <a name="things"></a>
 
-# ⑦ not being all the things
+# ⑦ what's next in the pipeline
 
 Our [Open Collective](https://opencollective.com/dribdat) offers a number of ways to support our project, from code and financial contribution to helping us to prioritize development and govern the overall initiative. Here are some areas where we think improvement should happen in the medium term. You will find these and a variety of enhancements being proposed and worked on in our [Issue Tracker](https://github.com/dribdat/dribdat/issues). That said, let's try to keep in mind that dribdat is a niche product with unique features and limited scope.
 
 ### User management
 
-While dribdat has built-in user profiles, the application currently has minimal user management features. Collecting personally identifiable information is not the goal of the project: facilitating recognition in a privacy-protecting way is. We allow the use of an anonymous username and disposable e-mail address to log in, but strongly suggest using OAuth for authenticating users through an external provider like Slack.
+While dribdat has built-in user profiles, the application currently has minimal user management features. Collecting personally identifiable information is not the goal of the project - facilitating recognition in a privacy-protecting way is. We take personal data seriously, but try to keep a small footprint in the tradition of tightly focused software utilities.
+
+Instead of maintaining e-mail validation, user management and password reset functions, we suggest using OAuth for authenticating users of dribdat through a trusted identity service like Slack, GitHub, or any OAuth 2-compatible provider. Once configured, the user is shown a dialog like this to log in, in the case of Slack: 
 
 ![](images/slack_login.png)
 
-We encourage users to create profiles in a community platform that you integrate with dribdat - such as the open source [Discourse](https://www.discourse.org/) forum software, or at least to connect their social media profiles. You could also recommend "CV builder" platforms (e.g. [Stack Overflow](https://stackoverflow.blog/2016/10/11/bye-bye-bullets-the-stack-overflow-developer-story-is-the-new-technical-resume/)) to conveniently promote everyone's hackathon experiences. The ability to display participant accomplishments in an interesting way remains an area of improvement.
+
+We furthermore encourage users to create profiles in a community platform that you integrate with dribdat - such as the open source [Discourse](https://www.discourse.org/) forum software, or at least to connect their social media profiles. You could also recommend "CV builder" platforms (e.g. [Stack Overflow](https://stackoverflow.blog/2016/10/11/bye-bye-bullets-the-stack-overflow-developer-story-is-the-new-technical-resume/)) to conveniently promote everyone's hackathon experiences. The ability to display participant accomplishments in an interesting way remains an area of improvement.
+
+That said, we allow admins to create accounts, which opens the door to giving credit to proxy users - these people who, for example, participated at a physical event but did not create a user account. Permission to use of an anonymous username and disposable e-mail address to log in to dribdat further widen the appeal in less formal contexts and communities.
 
 ### Questionnaires
 
@@ -209,18 +214,18 @@ While it is possible to include this in the "Getting Started" guide shown to tea
 
 ### Mobile app
 
-While featuring a robust and mobile-ready user interface, the overall User Experience is currently underwhelming. Our project has not yet the benefit of a dedicated effort in UX engineering, and at the moment caters perhaps more to the needs of grassroots communities who prefer a simple, familiar interface. If it is to be desired that an application is more in the foreground and engaged with by users, check out the [backboard](https://github.com/dribdat/backboard) project which we started in response to requests for a smoother user interface for participants. It is based on a mobile-first client/server [architecture](https://github.com/dribdat/design/blob/master/Technical%20guide%20final.pdf), and as a custom app, allows completely flexible customization and branding.
+While featuring a robust and mobile-ready user interface, the overall User Experience is basic and familiar to many of our users who are users of Twitter, GitHub and similar online apps. Our project has made small but significant UX engineering efforts, while catering perhaps more to the needs of grassroots communities who prefer a simple, "no-frills" interface. If you desire an application is more in the foreground and engaged with by users, check out the [backboard](https://github.com/dribdat/backboard) project which we started in response to requests for a smoother mobile UI for participants. It is a [Vue.js](https://vuejs.org/) project based on a client/server [architecture](https://github.com/dribdat/design/blob/master/Technical%20guide%20final.pdf), and as a custom app, allows completely flexible customization and branding.
 
 ![](images/backboard.jpg)
 _Screenshot of a [backboard deployment](https://backboard.vercel.app)_
 
 ### Integrations
 
-In running hackathons, we are used to relying on a bunch of complementary tools. The organizing teams often use cloud tools, spreadsheets and calendars to make drafts and detailed plans. Clearly, the goal should not be to replace all of this with a new "[15th competing standard](https://xkcd.com/927/)". Integration with Web tools like wikis and docs is already at the core, so it's easy to make dribdat a part of the workflow. For example, we have run events where all the content is maintained in Google Docs and Google Calendar, and just imported automatically into dribdat.
+In running hackathons, we are used to relying on a bunch of complementary tools. The organizing teams often use cloud tools, spreadsheets and calendars to make drafts and detailed plans. Clearly, the goal should not be to replace all of this with a new "[15th competing standard](https://xkcd.com/927/)". Integration with Web tools like wikis and docs is already at the core, with the goal of making it easy to put dribdat into your workflow. For example, we have run events where all the content is maintained in Google Docs and Google Calendar, and then just synced into dribdat. Other sites are successful in leveraging Airtable, GitHub and Microsoft Teams for content and user experience integration.
 
 ### Support channels
 
-At this time, commercial support is limited. The code base has developed organically using crowdsourced requirements. At time of writing, there is no broadly available Platform as a Service or a service provider running instances on demand. We believe there is a need for this and are taking steps in this direction. We are also involved in wider attempts to build scalable "operating systems" for hackathons.
+The code base of dribdat has developed organically using crowdsourced requirements. At time of writing, there is no broadly available Platform as a Service or a service provider running instances on demand. We believe there is a need for this and are taking steps in this direction. We are also involved in wider attempts to build scalable "operating systems" for hackathons.
 
 While setting up a small dribdat instance is easy and should be enough for a few teams to get started, the organizers of large events typically rely on more advanced support. Vendors who want to fully support dribdat should have experience with Python, OAuth and Web APIs, and be able to provide advice on how best to plug dribdat into your collaboration infrastructure. Notes on the architecture and supporting dribdat can be found in the [documentation](https://github.com/dribdat/dribdat/tree/main/docs).
 
@@ -233,7 +238,7 @@ If you have questions, just ping us through the project contacts. Visit the drib
 
 # ⑧ the open alternative
 
-In this section, we draw comparison to several other open source platforms and applications for hackathon-type events, which have (alongside their proprietary brethren) inspired our work. While project management tools, online forums, digital whiteboards, and conceivably any reasonably flexible collaboration platform can be used to run ideation events, specialized products can help to quickly build a team, evaluate progress, and "get in the groove".
+In this section, we draw comparison to several other open source platforms and applications for hackathon-type events, which have most strongly inspired our work. While project management tools, online forums, digital whiteboards, and conceivably any reasonably flexible collaboration platform can be used to run ideation events, specialized products can help to quickly build a team, evaluate progress, and "get in the groove".
 
 Platforms that are accessible to the general public (no matter how technically astute or not), and produce useful documentation, are popular with [civic tech](https://github.com/dribdat/dribdat/issues/240) and digital society initiatives. In the arena of student events, things are more focused on admissions, competition, and jury evaluation. Despite the differences across the spectra of audiences, we hope to see some of the core functional aspects modularized, enabling more code and design sharing to improve hackathon experiences everywhere.
 
